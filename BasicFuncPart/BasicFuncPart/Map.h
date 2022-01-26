@@ -190,7 +190,7 @@ class Map{
 			return areasVec[0];  //returns a pointer to the first area listed
 		}
         friend ostream& operator<<(ostream& os, Map& map){
-            this().print();
+            map.print();
             return os;
         }
 
